@@ -1,0 +1,13 @@
+package aula2;
+
+public class exemploExcecao {
+
+	try { 
+		// primeiro código a tentar ser executado
+	} 
+	
+	catch(tipo_excecao_1 e) {/* primeiro tratamento de excecao */}
+	catch(tipo_excecao_2 e) {/* segundo tratamento de excecao */ } 
+	catch(tipo_excecao_3 e) {/*	... */ }
+	}
+}

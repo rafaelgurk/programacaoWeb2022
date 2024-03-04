@@ -1,0 +1,15 @@
+package aula2;
+
+public class exercicio1Exceptions extends Exception {
+	
+	@Override
+	public void divisaoZero(int number) {
+		if(number == 0 ) { 
+			return "Divisão por zero!";
+		}
+	}
+	
+	public String numeroMenor() {
+		return "Primeiro número menor!";
+	}
+}

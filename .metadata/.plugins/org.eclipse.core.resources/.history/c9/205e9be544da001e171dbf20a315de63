@@ -1,0 +1,7 @@
+package aula2;
+
+public class exercicio1Exceptions extends Exception {
+	public String divisaoZero() {
+		return "Divisão por zero!";
+	}
+}

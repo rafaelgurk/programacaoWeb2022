@@ -1,0 +1,23 @@
+package aula2;
+
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Informe o primeiro número: ");
+		int num1 = scan.nextInt();
+		System.out.print("Informe o segundo número: ");
+		int num2 = scan.nextInt();
+		
+		try {
+			Exercicio1Exceptions.verificarValores(num1, num2);
+			System.out.println("Números verificados e validados!");
+			System.out.println(num1 + " / " + num2);
+			System.out.println(num1/num2);
+		} catch (Exception e) {
+			System.out.println("Erro: " + e.getMessage());
+		}
+	}
+}

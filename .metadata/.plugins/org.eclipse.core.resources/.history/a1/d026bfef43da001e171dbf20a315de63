@@ -1,0 +1,7 @@
+package aula2;
+
+public class exemploExcecaoArroba {
+	public static void main(String[] args) throws semArrobaException {
+		
+	}
+}

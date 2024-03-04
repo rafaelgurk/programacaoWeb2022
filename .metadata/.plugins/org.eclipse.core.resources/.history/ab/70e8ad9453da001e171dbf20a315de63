@@ -1,0 +1,21 @@
+package aula2;
+
+import java.util.Scanner;
+
+public class exercicio1 {
+
+	public static void main(String[] args) throws exercicio1Exceptions {
+		
+		exercicio1Exceptions excecoesExercicio = new exercicio1Exceptions();
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Informe o primeiro número: ");
+		int num1 = scan.nextInt();
+		
+		System.out.print("Informe o segundo número: ");
+		int num2 = scan.nextInt();
+		
+		try {
+			
+		}
+	}
+}
