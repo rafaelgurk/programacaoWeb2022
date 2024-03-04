@@ -1,0 +1,7 @@
+package solucaoProfessor;
+
+import java.util.Scanner;
+
+public class NumeroMenorException extends Exception {
+	
+}
