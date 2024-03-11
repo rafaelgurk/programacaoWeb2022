@@ -6,7 +6,6 @@ Requisitos:
 serializada
 */
 
-
 package exercicio2;
 
 public class Main {
@@ -17,11 +16,13 @@ public class Main {
 		System.out.println("Nome da Banda: " + banda1.nickname);
 		System.out.println("Estilo da banda: " + banda1.estiloMusical);
 		System.out.println("Possui Onibus próprio? " + banda1.temOnibus);
-		System.out.println("Integrante: " + banda1.nome);
+		System.out.println("Integrante: " + banda1.nickname);
 		System.out.println("Funcao do integrante: " + banda1.funcao);
 		System.out.println("Ano de contrato: " + banda1.anoContrato);
 		
-		System.out.println(banda1.getMaterial());
-		System.out.println(banda1.getModelo()); 
+		System.out.println("=======================================");
+		
+		System.out.println(banda1.getMaterial()); 
+		System.out.println(banda1.getModelo()); 	
 	}
 }
