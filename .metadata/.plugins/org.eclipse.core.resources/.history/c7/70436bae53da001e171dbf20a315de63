@@ -1,8 +1,0 @@
-package aula2;
-
-public class semArrobaException extends Exception {
-	@Override
-	public String getMessage() {
-		return "Caractere @ não encontrado no e-mail!!";
-	}
-}

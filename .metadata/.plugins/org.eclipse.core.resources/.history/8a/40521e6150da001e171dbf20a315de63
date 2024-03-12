@@ -1,8 +1,0 @@
-package aula2;
-
-public class exercicio1Exceptions {
-	
-	public static void verificarValores(int num1, int num2) throws Exception {
-		if(num1 < num2) { throw new Exception("O primeiro valor deve ser maior que o segundo!"); }
-	}
-}
