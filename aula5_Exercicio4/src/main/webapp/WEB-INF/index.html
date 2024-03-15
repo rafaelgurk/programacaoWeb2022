@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            margin-right: 10px;
+        }
+
+        input[type="number"] {
+            border: 2px solid #007bff;
+            /* Azul claro */
+            border-radius: 3px;
+            padding: 5px;
+            margin-bottom: 10px;
+            width: 150px;
+        }
+
+        button {
+            background-color: #007bff;
+            /* Azul claro */
+            border: 2px solid #0056b3;
+            /* Azul escuro */
+            color: #fff;
+            /* Fonte bolder */
+            font-weight: bolder;
+            /* Tamanho fonte*/
+            font-size: small;
+            padding: 8px 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            /* Azul escuro */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Média de 3 notas</h1>
+    <h3>Registro de notas</h3>
+    <form action="/aula5_Exercicio3/calculoMedia" method="post">
+        <label for="nota1">Nota: </label>
+        <input type="number" id="nota1" name="nota1" required>
+        <br>
+
+        <label for="nota2">Nota: </label>
+        <input type="number" id="nota2" name="nota2" required>
+        <br>
+
+        <label for="nota3">Nota: </label>
+        <input type="number" id="nota3" name="nota3" required>
+        <br>
+
+        <button type="submit">Calcular média</button>
+        <button type="button" onclick="funcaoLimpar()">Limpar</button>
+    </form>
+
+    <script>
+        function funcaoLimpar() {
+            document.getElementById("nota1").value = "";
+            document.getElementById("nota2").value = "";
+            document.getElementById("nota3").value = "";
+        }
+    </script>
+</body>
+
+</html>
