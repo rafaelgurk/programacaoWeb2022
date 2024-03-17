@@ -18,7 +18,7 @@ public class LogoutServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request,
 						 HttpServletResponse response) throws ServletException, IOException {
 
-		response.setContentType("text/html; charset=UTF-8");
+		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		
 		request.getRequestDispatcher("link.html").include(request, response);
