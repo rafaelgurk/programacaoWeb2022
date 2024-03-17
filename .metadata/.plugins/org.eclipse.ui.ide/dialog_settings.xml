@@ -8,6 +8,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="F:\JAVA\PROGRAMACAO_PARA_WEB_2022\java\Tarefa_4"/>
+			<item value="C:\Apache\Tomcat9\webapps\aula8"/>
 			<item value="C:\Users\rafae\OneDrive\Documentos\Estudos\Variados\ProgramacaoWeb-2022\professor\ArquivosAtualizados\programacaoWeb2022"/>
 		</list>
 	</section>
