@@ -1,7 +1,6 @@
 INDEX VERSION 1.131+C:\Users\rafae\OneDrive\Documentos\Estudos\Variados\ProgramacaoWeb-2022\professor\ArquivosAtualizados\programacaoWeb2022\.metadata\.plugins\org.eclipse.jdt.core
-3232537159.index
-895805909.index
+3246516702.index
 1164012407.index
-3152384539.index
+3232537159.index
+3455109458.index
 1865797976.index
-673831078.index
